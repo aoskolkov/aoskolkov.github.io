@@ -14,8 +14,8 @@ section.resume-section{border-bottom:1px solid #dee2e6;padding-top:2rem!importan
 
 .collapsible-soon {
   background-color: white;
+  border: none;
   color: black;
-  cursor: pointer;
   width: 100%;
   text-align: left;
   outline: none;
