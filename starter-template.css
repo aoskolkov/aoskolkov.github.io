@@ -1,0 +1,120 @@
+
+
+
+body {
+  padding-top: 5rem;
+  font-family: "DM Sans", sans-serif;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+section.resume-section{border-bottom:1px solid #dee2e6;padding-top:2rem!important;padding-bottom:5rem!important}
+
+.collapsible-soon {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  white-space: normal;
+}
+
+
+.collapsible {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  white-space: normal;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: white;
+  border-color: #AEB6BF;
+  border-width: 2pt;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.card-header {
+  background-color: white;
+}
+
+.card-body {
+    text-align:justify;
+  font-size: 12px;
+}
+
+
+.collapsible:after {
+    font-family:FontAwesome;
+    content: '\f078'; /* Unicode character for "plus" sign (+) */
+    float: right;
+      margin-left: 5px;
+
+}
+
+.active:after {
+  content: "\f077"; /* Unicode character for "minus" sign (-) */
+}
+
+.btn-download{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border-color: black;
+    border-width: 1pt;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+}
+
+.subheading{font-weight:500;font-size:1.35rem}
+
+.jmp{font-weight:500;font-size:1rem}
+
+.small_links{font-size:10pt}
+
+
+.centered{
+    text-align:center;
+}
+
+
+
+.navbar-brand{
+    color: black;
+}
+
+
+.navbar-scrolled {
+  background-color: #273746; /* Replace with the desired background color when scrolled */
+}
+.brand-scrolled{
+    color: white;
+}
+.navbar-brand-scrolled {
+      color: white; /* Replace with the desired color for the brand when scrolled */
+    }
+
+.coauthor{
+    color: black;
+    text-decoration: underline;
+}
+
