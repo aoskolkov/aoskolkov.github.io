@@ -65,33 +65,61 @@
           </div>
         </div>
       </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="research">
-        <div class="container my-auto">
-          <h2 class="mb-5">Research</h2>
-          <div class="row my-auto">
-            <div class="col-md-6 col-sm-12 my-auto">
-                <p class = "mb-4"><a href="files/oskolkov_jmp.pdf"><b> Heterogeneous Impact of the Global Financial Cycle </b> <br> </a>
-		<!-- <a href="files/slides_current.pdf">[slides]</a> &emsp; -->
-            </p>
-          <p style = "font-size:10pt; text-align:justify;"> I develop a heterogeneous-country model of the world economy to study the distributional impact of aggregate capital flight episodes.
-		A global intermediary borrows from all countries and invests in their risky assets.
-		Wealth heterogeneity between countries arises naturally due to idiosyncratic shocks.
-		A single global factor that combines the intermediary's wealth and risk-taking capacity determines capital inflows and risk premia in every country.
-		A shock to the intermediary’s risk-taking capacity generates global capital flight.
-		Investors from rich countries use their external savings to replace foreign demand for domestic assets.
-		These countries experience a ``retrenchment'' event: a sizable fall in outward flows.
-		Their risky assets appreciate on impact.
-		In poor countries, investors cannot replace foreign demand without a sharp rise in risk premia.
-		Their asset markets adjust through prices rather than quantities, and prices fall.
-		Estimating the model, I find that global financial shocks explain a quarter of the time-series variation in aggregate capital flows and a third of the variation in the relative performance of assets in advanced economies compared to emerging markets.</p>
-            </div>
-            <div class="col-md-6 col-sm-12 displayed mb-5 my-auto">
-              <img align="right" src="img/figure_1_jmp.png" alt="" style="width: 40%; min-width: 350px;" height="auto">
-            </div>
-          </div>
-        </div>
   
+         <!-- Working Papers Section -->
+         <section class="p-3 p-lg-5 d-flex flex-column" id="working-papers">
+           <div class="container my-auto">
+             <h2 class="subheading">Working Papers</h2>
+
+		<!-- Working Paper 1-->
+             <div class="card-header" id="working-headingOne">
+               <h5 class="mb-0">
+                 <button class="btn collapsible" data-toggle="collapse" data-target="#working-collapseOne" aria-expanded="false" aria-controls="working-collapseOne">
+                     <b> Heterogeneous Impact of the Global Financial Cycle </b>                      <br>
+                     <a href="files/oskolkov_jmp.pdf">[paper]</a> 
+                 </button>
+               </h5>
+             </div>
+             <div id="working-collapseOne" class="collapse" aria-labelledby="working-headingOne">
+               <div class="card-body">
+                   I develop a heterogeneous-country model of the world economy to study the distributional impact of aggregate capital flight episodes. A global intermediary borrows from all countries and invests in their risky assets. Wealth heterogeneity between countries arises endogenously due to idiosyncratic shocks. A single global factor that combines the intermediary’s wealth and risk-taking capacity determines capital inflows and risk premia in every country. A shock to the intermediary’s risk-taking capacity generates global capital flight. Investors from rich countries use their external savings to replace foreign demand for domestic assets. These countries experience a “retrenchment” event: a sizable fall in outward flows. Their risky assets appreciate on impact. In poor countries, investors cannot replace foreign demand without a sharp rise in risk premia. Their asset markets adjust through prices rather than quantities, and prices fall. Estimating the model, I find that global financial shocks explain a quarter of the time-series variation in aggregate capital flows and a third of the variation in the relative performance of assets in advanced economies compared to emerging markets.
+               </div>
+             </div>
+
+<!-- Working Paper 2-->
+             <div class="card-header" id="working-headingTwo">
+               <h5 class="mb-0">
+                 <button class="btn collapsible" data-toggle="collapse" data-target="#working-collapseTwo" aria-expanded="false" aria-controls="working-collapseTwo">
+                     <b> Value-at-Risk Constraints, Robustness, and Aggregation </b>
+                     <br>
+                     <a href="files/var_paper.pdf">[paper]</a> 
+                 </button>
+               </h5>
+             </div>
+             <div id="working-collapseTwo" class="collapse" aria-labelledby="working-headingTwo">
+               <div class="card-body">
+                   I describe a value-at-risk constraint that induces long-lived investors to choose static mean-variance portfolios with time-varying risk tolerance. This allows incorporating risk aversion shocks into dynamic models while keeping portfolios easy to aggregate across heterogeneous investors. In equilibrium, asset prices follow standard risk-neutral pricing equations with one additional term that depends on the wealth distribution through a single scalar. I provide a foundation for the value-at-risk constraint through a version of robustness concerns, where investors fear model misspecification and try to account for adverse alternative scenarios. I then illustrate the practicality of value-at-risk in a sovereign debt model with a cross-section of countries. Aggregate shocks to lenders’ constraints create endogenous pricing risk, global interest rate risk, and a volatile common component in spreads that is orthogonal to fundamentals. I show that, despite this rich upside, solving for global equilibria with value-at-risk constraints requires minimal departures from models with risk-neutral lenders.
+               </div>
+             </div>
+
+<!-- Working Paper 3-->
+             <div class="card-header" id="working-headingThree">
+               <h5 class="mb-0">
+                 <button class="btn collapsible" data-toggle="collapse" data-target="#working-collapseThree" aria-expanded="false" aria-controls="working-collapseThree">
+                     <b> A Structural Model of Asymmetric Lumpy Investment</b> (with <a class="coauthor" href="https://sites.google.com/view/francesco-lippi/">Francesco Lippi</a>)
+                     <br>
+                     <a href="files/lumpy_investment.pdf">[paper]</a> 
+                 </button>
+               </h5>
+             </div>
+             <div id="working-collapseThree" class="collapse" aria-labelledby="working-headingThree">
+               <div class="card-body">
+                   Firms' capital investments are lumpy and asymmetric, with disinvestments being less frequent and smaller than positive investments. We present a tractable model that reproduces the observed frequency and size distribution of investments by assuming that capital investment is subject to random fixed costs. We provide an inverse map to recover the model's primitives: in particular, we use the size distribution of investment to identify the underlying distribution of adjustment costs, as well as other fundamental parameters such as the drift and volatility of the firm's productivity. We apply the method to panel data on investments by Italian firms. We use the identified model to quantify the capital adjustment costs and to document their asymmetric nature: disinvestments are more costly than investments. We explore the extent to which these asymmetries imply a non-linear propagation of aggregate productivity shocks.
+               </div>
+             </div>
+
+           </div>
+         </section>
         
         <section class="p-3 p-lg-5 d-flex flex-column" id="published-papers">
            <div class="container my-auto">
@@ -155,72 +183,7 @@
                </div>
              </div>
            </div>
-         </section>
-
-         <!-- Working Papers Section -->
-         <section class="p-3 p-lg-5 d-flex flex-column" id="working-papers">
-           <div class="container my-auto">
-             <h2 class="subheading">Working Papers</h2>
-
-		<!-- Working Paper-->
-             <div class="card-header" id="working-headingTwo">
-               <h5 class="mb-0">
-                 <button class="btn collapsible" data-toggle="collapse" data-target="#working-collapseTwo" aria-expanded="false" aria-controls="working-collapseTwo">
-                     <b> A Structural Model of Asymmetric Lumpy Investment</b> (with <a class="coauthor" href="https://sites.google.com/view/francesco-lippi/">Francesco Lippi</a>)
-                     <br>
-                     <a href="files/lumpy_investment.pdf">[paper]</a> 
-                 </button>
-               </h5>
-             </div>
-             <div id="working-collapseTwo" class="collapse" aria-labelledby="working-headingTwo">
-               <div class="card-body">
-                   Firms' capital investments are lumpy and asymmetric, with disinvestments being less frequent and smaller than positive investments. We present a tractable model that reproduces the observed frequency and size distribution of investments by assuming that capital investment is subject to random fixed costs. We provide an inverse map to recover the model's primitives: in particular, we use the size distribution of investment to identify the underlying distribution of adjustment costs, as well as other fundamental parameters such as the drift and volatility of the firm's productivity. We apply the method to panel data on investments by Italian firms. We use the identified model to quantify the capital adjustment costs and to document their asymmetric nature: disinvestments are more costly than investments. We explore the extent to which these asymmetries imply a non-linear propagation of aggregate productivity shocks.
-               </div>
-             </div>
-           </div>
-         </section>
-
-         <!-- Work in Progress Section -->
-         <section class=" p-3 p-lg-5 d-flex flex-column" id="work-in-progress">
-           <div class="container my-auto">
-             <h2 class="subheading">Work in Progress</h2>
-
-             <!-- Work in Progress -->
-             <div class="card-header" id="progress-headingOne">
-               <h5 class="mb-0">
-                 <button class="collapsible-soon" data-toggle="collapse" data-target="#progress-collapseOne" aria-expanded="false" aria-controls="progress-collapseOne">
-                     <b> Currency Mismatch on Bank Balance Sheets and Exchange Rates</b> (with <a class="coauthor" href="https://www.marcossora.com/">Marcos Sora</a> and <a class="coauthor" href="https://elizavetasizova.github.io/">Elizaveta Sizova</a>)
-                     <br>
-                     [draft coming soon]
-                 </button>
-               </h5>
-             </div>
-             <div id="progress-collapseOne" class="collapse" aria-labelledby="progress-headingOne">
-               <div class="card-body">
-                 <!-- Content of the work in progress -->
-               </div>
-             </div>
-
-	<!-- Work in Progress -->
-             <div class="card-header" id="progress-headingOne">
-               <h5 class="mb-0">
-                 <button class="collapsible-soon" data-toggle="collapse" data-target="#progress-collapseOne" aria-expanded="false" aria-controls="progress-collapseOne">
-                     <b> Trade and Financial Dollarization: Theory and Firm-Level Evidence</b> (with <a class="coauthor" href="https://www.marcossora.com/">Marcos Sora</a>)
-                     <br>
-                     [draft coming soon]
-                 </button>
-               </h5>
-             </div>
-             <div id="progress-collapseOne" class="collapse" aria-labelledby="progress-headingOne">
-               <div class="card-body">
-                 <!-- Content of the work in progress -->
-               </div>
-             </div>
-
-             <!-- ... (more work in progress) ... -->
-           </div>
-         </section>
-  
+         </section>  
         
       <div class="container my-auto pt-5 pb-5">
           </div>
